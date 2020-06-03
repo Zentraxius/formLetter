@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Letter</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Publisher's Clearing House</h1>
+    <p>Congratulations! Remember that time you said you'd sell your soul?</p>
+    <p>Well, it's time to collect!</p>
+    <p>Simply fill out the form below and we'll send you a date and time to send us your soul.</p>
+    <p>Soul submissions not valid outside of the continental US.</p>
+    <form id="formOne">
+      <div class="form-group">
+        <p>Your name</p>
+        <input id="name" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="address">Your address:</label>
+        <input id="address" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="mobile">Your mobile number:</label>
+        <input id="mobile" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="bloodtype">Your bloodtype:</label>
+        <input id="bloodtype" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="firstborn">The name of your firstborn child:</label>
+        <input id="firstborn" class="form-control" type="text">
+      </div>
+
+      <button type="submit" class="btn">Show me the story!</button>
+    </form>
+
+    <div id="response">
+      <p>Thanks, <span class="name"></span>. One of our minions has taken your information and will be back with you
+        shortly. Please see below to verify that it is correct. Call us and let us know of any errors.</p>
+      <p>'Best,</p>
+      <p>Satan</p>
+      <ul>
+        <li class="name"></li>
+        <li class="address"></li>
+        <li class="mobile"></li>
+        <li class="bloodtype"></li>
+        <li class="firstborn"></li>
+      </ul>
+    </div>
+  </div>
+
+
+
+
+</body>
+
+</html>
