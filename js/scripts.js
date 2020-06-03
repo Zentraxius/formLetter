@@ -6,12 +6,11 @@ $(document).ready(function () {
     const bloodInput = $("input#bloodtype").val();
     const firstbornInput = $("input#firstborn").val();
 
-    $(".name").text(nameInput);
-    $(".address").text(addressInput);
-    $(".mobile").text(mobileInput);
-    $(".bloodtype").text(bloodInput);
-    $(".firstborn").text(firstbornInput);
-
+    $(".name span").text(nameInput);
+    $(".address span").text(addressInput);
+    $(".mobile span").text(mobileInput);
+    $(".bloodtype span").text(bloodInput);
+    $(".firstborn span").text(firstbornInput);
 
     $("#response").show();
 

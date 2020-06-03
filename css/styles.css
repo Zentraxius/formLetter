@@ -1,10 +1,10 @@
 
 
-p.redacted span {
+.redacted span {
   position: relative;
   white-space: pre;
 }
-ul.redacted span:after {
+.redacted span:after {
   background: black;
   border-radius: 0.1em;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.35);
@@ -25,8 +25,8 @@ ul.redacted span:after {
   display: none;
 }
 
-body {
+/* body {
   /* font-weight:  black;
   color: black; */
   /* background-image: linear-gradient(rgba(255, 94, 0, 0.5), rgba(255, 30, 0, 0.5)), url("http://www.technosamrat.com/wp-content/uploads/2012/01/Funny-Fire-wallpapers.jpg"); */
-}
+/* } */ 
