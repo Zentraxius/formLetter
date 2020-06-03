@@ -1,14 +1,32 @@
-#response {
-  display: none;
-}
 
-body {
-  font-weight:  black;
-  color: lightgreen;
-  background-image: linear-gradient(rgba(255, 94, 0, 0.5), rgba(255, 30, 0, 0.5)), url("http://www.technosamrat.com/wp-content/uploads/2012/01/Funny-Fire-wallpapers.jpg");
+
+p.redacted span {
+  position: relative;
+  white-space: pre;
+}
+ul.redacted span:after {
+  background: black;
+  border-radius: 0.1em;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.35);
+  content: " ";
+  width: 100%;
+  height: 1.2em;
+  left: 0;
+  position: absolute;
+  transform: skewY(-5deg) rotate(5deg);
 }
 
 .btn {
   border: 3px solid red;
   color: red;
+}
+
+#response {
+  display: none;
+}
+
+body {
+  /* font-weight:  black;
+  color: black; */
+  /* background-image: linear-gradient(rgba(255, 94, 0, 0.5), rgba(255, 30, 0, 0.5)), url("http://www.technosamrat.com/wp-content/uploads/2012/01/Funny-Fire-wallpapers.jpg"); */
 }
